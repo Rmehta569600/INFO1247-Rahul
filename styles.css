@@ -1,0 +1,122 @@
+/*Name Rahul Mehta Student id:8985696*/
+
+html {
+    line-height: 1.6;
+    font-family: 'Calbrie';
+    font-size: 18px;
+    background-color: #f1c2f3;
+}
+
+body {
+    max-width: 1200px;
+    margin: 10px;
+    padding: 0;
+    font-family: 'Calbrie';
+    color: #191302;
+    background-color: #e6f1f4;/light Blue/
+}
+
+h1, h2 {
+    font-weight: 700;
+    text-align: center;
+    font-weight:lighter;
+    font-size:2.4rem ;
+    color: #181c87;
+}
+
+
+main, aside {
+    margin: 1.2rem 0;
+}
+
+main {
+    float: left;
+    width: 70%;
+    background-color: #daa7d8;
+    margin: 1.2rem 0;
+}
+
+aside {
+    float: right;
+    width: 28%;
+    padding: 10px;
+}
+
+
+blockquote {
+    margin: 1.2rem 0;
+    padding: 4px;
+    border-left: 6px solid #ee7ef0;
+    background-color: #daa7d8;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+
+}
+
+figure {
+    border-top: 6px double #f6a5a5;
+    border-radius: 7px;
+    padding: 9px;
+
+}
+
+video {
+    border-top: 6px double #898787;
+    border-radius: 2px;
+    padding: 9px;
+}
+
+#external-link li {
+    margin: 8px;
+    text-decoration: dotted;
+    font-style: italic;
+    color: aliceblue;
+}
+
+#contact-information {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#contact-information form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-information label {
+    margin-bottom: 10px;
+}
+
+#contact-information{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#contact-information input[type="submit"] {
+    background-color: #034d05;
+    margin-block: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #9ede1f;
+    cursor: pointer;
+}
+
+#contact-information input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+footer {
+    clear: both;
+    padding: 15px ;
+    text-align: center;
+    font-size: 10px;
+    background: linear-gradient(to right, #ff9a8b, #ff6a88);
+}
